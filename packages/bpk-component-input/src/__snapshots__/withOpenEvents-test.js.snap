@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withOpenEvents should attach different event handlers when touch is supported 1`] = `
+<DocumentFragment>
+  <input
+    aria-invalid="false"
+    aria-readonly="false"
+    class="bpk-input bpk-input--with-open-events"
+    id="my-input"
+    name="my-input"
+    readonly=""
+    type="text"
+    value="value"
+  />
+</DocumentFragment>
+`;
+
+exports[`withOpenEvents should render correctly 1`] = `
+<DocumentFragment>
+  <input
+    aria-invalid="false"
+    class="bpk-input bpk-input--with-open-events"
+    id="my-input"
+    name="my-input"
+    type="text"
+    value="value"
+  />
+</DocumentFragment>
+`;
+
+exports[`withOpenEvents should render correctly with "className" prop 1`] = `
+<DocumentFragment>
+  <input
+    aria-invalid="false"
+    class="bpk-input bpk-input--with-open-events my-custom-class"
+    id="my-input"
+    name="my-input"
+    type="text"
+    value="value"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BpkLink should render correctly with "blank" and "rel" attributes 1`] = `
+<DocumentFragment>
+  <a
+    class="bpk-link"
+    href="#"
+    rel="rel-overwrite"
+    target="_blank"
+  >
+    Link (new window)
+  </a>
+</DocumentFragment>
+`;
+
+exports[`BpkLink should render correctly with a "alternate" attribute 1`] = `
+<DocumentFragment>
+  <a
+    class="bpk-link bpk-link--alternate"
+    href="#"
+  >
+    Link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`BpkLink should render correctly with a "blank" attribute 1`] = `
+<DocumentFragment>
+  <a
+    class="bpk-link"
+    href="#"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Link (new window)
+  </a>
+</DocumentFragment>
+`;
+
+exports[`BpkLink should render correctly with a "className" attribute 1`] = `
+<DocumentFragment>
+  <a
+    class="bpk-link test-class"
+    href="#"
+  >
+    Link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`BpkLink should render correctly with a "href" attribute 1`] = `
+<DocumentFragment>
+  <a
+    class="bpk-link"
+    href="#"
+  >
+    Link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`BpkLink should render correctly with a "rel" attribute 1`] = `
+<DocumentFragment>
+  <a
+    class="bpk-link"
+    href="#"
+    rel="rel-attr"
+    target="_blank"
+  >
+    Link (new window)
+  </a>
+</DocumentFragment>
+`;
+
+exports[`BpkLink should render correctly with arbitrary attributes 1`] = `
+<DocumentFragment>
+  <a
+    class="bpk-link"
+    href="#"
+    id="test-id"
+  >
+    Link
+  </a>
+</DocumentFragment>
+`;

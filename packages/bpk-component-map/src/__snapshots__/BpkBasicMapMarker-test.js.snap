@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BpkBasicMapMarker should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mock-overlay-view"
+    />
+    Children
+  </div>
+</DocumentFragment>
+`;

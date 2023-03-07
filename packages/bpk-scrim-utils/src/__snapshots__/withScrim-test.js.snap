@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BpkScrim render should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="bpk-scrim-content"
+  >
+    <div
+      class="bpk-scrim"
+      role="presentation"
+    />
+    <testcomponent />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BpkScrim render should render correctly when is iPhone 1`] = `
+<DocumentFragment>
+  <div
+    class="bpk-scrim-content"
+  >
+    <div
+      class="bpk-scrim"
+      role="presentation"
+    />
+    <testcomponent />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BpkScrim render should render correctly with closeOnScrimClick as false 1`] = `
+<DocumentFragment>
+  <div
+    class="bpk-scrim-content"
+  >
+    <div
+      class="bpk-scrim"
+      role="presentation"
+    />
+    <testcomponent />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`BpkScrim render should render correctly with containerClassName 1`] = `
+<DocumentFragment>
+  <div
+    class="bpk-scrim-content containerClassName"
+  >
+    <div
+      class="bpk-scrim"
+      role="presentation"
+    />
+    <testcomponent />
+  </div>
+</DocumentFragment>
+`;

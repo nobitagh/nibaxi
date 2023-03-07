@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withSingleItemAccordionState(BpkAccordion) should render correctly 1`] = `
+<DocumentFragment>
+  <dl
+    class="bpk-accordion"
+  >
+    <div>
+      Accordion Item 1
+    </div>
+    <div>
+      Accordion Item 2
+    </div>
+    <div>
+      Accordion Item 3
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`withSingleItemAccordionState(BpkAccordion) should render correctly even when multiple items are marked as initially expanded 1`] = `
+<DocumentFragment>
+  <dl
+    class="bpk-accordion"
+  >
+    <div>
+      Accordion Item 1
+    </div>
+    <div>
+      Accordion Item 2
+    </div>
+    <div>
+      Accordion Item 3
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`withSingleItemAccordionState(BpkAccordion) should render correctly with arbitrary props 1`] = `
+<DocumentFragment>
+  <dl
+    class="bpk-accordion someClass"
+    foo="bar"
+  >
+    <div>
+      Accordion Item 1
+    </div>
+    <div>
+      Accordion Item 2
+    </div>
+    <div>
+      Accordion Item 3
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`withSingleItemAccordionState(BpkAccordion) should render correctly with custom initially expanded item 1`] = `
+<DocumentFragment>
+  <dl
+    class="bpk-accordion"
+  >
+    <div>
+      Accordion Item 1
+    </div>
+    <div>
+      Accordion Item 2
+    </div>
+    <div>
+      Accordion Item 3
+    </div>
+  </dl>
+</DocumentFragment>
+`;
